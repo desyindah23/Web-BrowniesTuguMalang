@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Bolu Kukus & Brownies Tugu Malang</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex min-h-screen flex-col justify-between bg-amber-50/40 font-sans text-stone-800">
+    
+    <!-- HERO SECTION DENGAN FULL BACKGROUND IMAGE -->
+    <div class="relative flex min-h-[85vh] flex-col justify-between overflow-hidden rounded-b-[40px] bg-cover bg-center shadow-xl" style="background-image: linear-gradient(rgba(226, 161, 39, 0.747), rgba(0, 0, 0, 0.6)), url('beranda.jpg');">
+      <!-- NAVBAR -->
+      <nav class="z-50 flex flex-col items-center justify-between gap-4 border-b border-amber-100 bg-white/80 px-[8%] py-5 backdrop-blur-md md:flex-row md:gap-0">
+        <div class="flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-amber-600 to-amber-800 text-xl font-bold text-white shadow-md shadow-amber-600/20">TM</div>
+          <div class="text-xl font-bold tracking-tight text-stone-800 md:text-2xl">Tugu Malang <span class="block text-sm font-normal text-amber-600 md:inline md:text-base">| Bolu Kukus & Brownies</span></div>
+        </div>
+
+        <ul class="flex list-none flex-wrap justify-center gap-5 text-sm font-semibold text-stone-700 md:gap-8 md:text-base">
+          <li><a href="index.html" class="border-b-2 border-amber-600 pb-1 text-amber-600">Beranda</a></li>
+          <li><a href="menu.html" class="pb-1 transition hover:text-amber-600">Varian Rasa</a></li>
+          <li><a href="lokasi.html" class="pb-1 transition hover:text-amber-600">Lokasi Toko</a></li>
+          <li><a href="pemesanan.html" class="pb-1 transition hover:text-amber-600">Pemesanan</a></li>
+        </ul>
+      </nav>
+
+      <!-- KONTEN HERO UTAMA -->
+      <div class="my-auto max-w-3xl px-[8%] py-16 text-center md:text-left">
+        <span class="mb-4 inline-block rounded-full bg-amber-500/90 px-3.5 py-1.5 text-xs font-bold tracking-wider text-white uppercase shadow-sm md:text-sm"> Oleh-Oleh Khas Kota Malang </span>
+        <h1 class="mb-4 text-3xl leading-tight font-extrabold text-white drop-shadow-md md:text-5xl lg:text-6xl">Kelembutan Khas <span class="text-amber-400">Bolu & Brownies Tugu Malang</span></h1>
+        <p class="mb-8 text-base leading-relaxed text-stone-200 drop-shadow md:text-lg">Dibuat dari bahan-bahan berkualitas pilihan dengan tekstur super lembut dan toping melimpah. Oleh-oleh wajib saat berkunjung ke Malang!</p>
+        <div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
+          <a href="menu.html" class="rounded-xl bg-amber-600 px-7 py-3.5 text-center font-semibold text-white shadow-lg shadow-amber-600/30 transition hover:bg-amber-700"> Lihat Semua Rasa </a>
+          <a href="pemesanan.html" class="rounded-xl border-2 border-white bg-white/10 px-7 py-3.5 text-center font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"> Pesan Outlet / WA </a>
+        </div>
+      </div>
+
+      <div class="h-6"></div>
+    </div>
+
+    <!-- KEUNGGULAN PRODUK -->
+    <section class="my-auto border-t border-amber-100 bg-white px-[8%] py-16">
+      <div class="mx-auto mb-10 max-w-4xl text-center">
+        <h2 class="text-2xl font-bold text-stone-900 md:text-3xl">Mengapa Harus Membeli Tugu Malang?</h2>
+      </div>
+      <div class="grid grid-cols-1 gap-6 text-center md:grid-cols-3">
+        <div class="rounded-2xl border border-amber-100 bg-amber-50/50 p-6 shadow-sm">
+          <div class="mb-3 text-4xl">🧀</div>
+          <h3 class="mb-2 text-lg font-bold text-stone-800">Toping Melimpah</h3>
+          <p class="text-sm leading-relaxed text-stone-500">Taburan keju dan keju cokelat melimpah di setiap gigitan bolu & brownies.</p>
+        </div>
+        <div class="rounded-2xl border border-amber-100 bg-amber-50/50 p-6 shadow-sm">
+          <div class="mb-3 text-4xl">🍃</div>
+          <h3 class="mb-2 text-lg font-bold text-stone-800">Bahan Alami & Segar</h3>
+          <p class="text-sm leading-relaxed text-stone-500">Olahan asli apel Malang dan cokelat murni tanpa bahan pengawet berbahaya.</p>
+        </div>
+        <div class="rounded-2xl border border-amber-100 bg-amber-50/50 p-6 shadow-sm">
+          <div class="mb-3 text-4xl">💯</div>
+          <h3 class="mb-2 text-lg font-bold text-stone-800">100% Halal & Terdaftar</h3>
+          <p class="text-sm leading-relaxed text-stone-500">Telah mengantongi sertifikat Halal MUI dan izin edar resmi BPOM.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 py-6 text-center text-sm text-white">
+      <p>© 2026 Bolu Kukus & Brownies Tugu Malang</p>
+    </footer>
+  </body>
+</html>

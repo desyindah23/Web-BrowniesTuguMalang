@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokasi Toko - Bolu Kukus & Brownies Tugu Malang</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/40 text-stone-800 font-sans min-h-screen flex flex-col justify-between">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 px-[8%] py-4 flex flex-col md:flex-row justify-between items-center shadow-sm gap-4 md:gap-0">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-gradient-to-br from-amber-600 to-amber-800 text-white rounded-xl flex items-center justify-center font-bold text-xl shadow-md shadow-amber-600/20">
+                TM
+            </div>
+            <div class="text-xl md:text-2xl font-bold text-stone-800 tracking-tight">
+                Tugu Malang <span class="text-amber-600 font-normal text-sm md:text-base block md:inline">| Bolu Kukus & Brownies</span>
+            </div>
+        </div>
+
+        <ul class="flex flex-wrap justify-center list-none gap-6 md:gap-8 font-semibold text-stone-700">
+            <li><a href="index.html" class="hover:text-amber-600 transition pb-1">Beranda</a></li>
+            <li><a href="menu.html" class="hover:text-amber-600 transition pb-1">Varian Rasa</a></li>
+            <li><a href="lokasi.html" class="text-amber-600 border-b-2 border-amber-600 pb-1">Lokasi Toko</a></li>
+            <li><a href="pemesanan.html" class="hover:text-amber-600 transition pb-1">Pemesanan</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECTION LOKASI TOKO SINGLE OUTLET -->
+    <section class="py-12 px-[8%] flex-1 flex flex-col items-center">
+        <div class="text-center max-w-xl mx-auto mb-8">
+            <span class="bg-amber-100 text-amber-800 text-xs md:text-sm font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider inline-block mb-3">
+                Outlet Terdekat Probolinggo 
+            </span>
+            <h2 class="text-3xl font-extrabold text-stone-900 mb-2">Kunjungi Toko Kami</h2>
+            <p class="text-stone-500">Dapatkan bolu kukus dan brownies yang selalu fresh setiap hari di outlet kami.</p>
+        </div>
+
+        <!-- KARTU LOKASI & GOOGLE MAPS IFRAME -->
+        <div class="w-full max-w-4xl bg-white rounded-3xl shadow-xl shadow-amber-900/10 border border-amber-100 overflow-hidden flex flex-col md:flex-row">
+            
+            <!-- DETAIL ALAMAT (KIRI) -->
+            <div class="p-8 md:w-1/2 flex flex-col justify-between bg-amber-50/20">
+                <div>
+                    <span class="text-4xl mb-2 block">🏪</span>
+                    <h3 class="text-2xl font-bold text-stone-900 mb-2">Outlet Kota Probolinggo</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-6">
+                        Jl. Soekarno-Hatta No. 152, Pilang, Kec. Kademangan, Kota Probolinggo, Jawa Timur 67221.
+                    </p>
+
+                    <div class="space-y-3 text-xs md:text-sm text-stone-700">
+                        <div class="flex items-center gap-2">
+                            <span>⏰</span>
+                            <span>Jam Buka: <strong>07.00 - 21.00 WIB</strong></span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span>📞</span>
+                            <span>Telepon / WA: <strong>085855287160</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-amber-100">
+                    <a href="https://www.google.com/maps/place//data=!4m2!3m1!19sChIJ6zJbnpSt1y0R6gI5Sfn_McQ" 
+                       target="_blank" 
+                       class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-5 py-2.5 rounded-xl transition text-sm text-center w-full shadow-md shadow-amber-600/20">
+                        🗺️ Buka di Aplikasi Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- EMBED GOOGLE MAPS INTERAKTIF -->
+            <div class="md:w-1/2 h-72 md:h-auto min-h-[300px]">
+                <iframe 
+                    class="w-full h-full border-0" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1950242277!2d113.2045!3d-7.7515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7ad78848d4239%3A0x6b1626244dfdf99!2sLapis%20Kukus%20Tugu%20Malang!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 text-white text-center py-6 text-sm">
+        <p>© 2026 Bolu Kukus & Brownies Tugu Malang</p>
+    </footer>
+
+</body>
+</html>

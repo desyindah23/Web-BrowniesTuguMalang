@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varian Rasa - Bolu Kukus & Brownies Tugu Malang</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex min-h-screen flex-col justify-between bg-amber-50/40 font-sans text-stone-800">
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 flex flex-col items-center justify-between gap-4 border-b border-amber-100 bg-white/90 px-[8%] py-4 shadow-sm backdrop-blur-md md:flex-row md:gap-0">
+      <div class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-amber-600 to-amber-800 text-xl font-bold text-white shadow-md shadow-amber-600/20">TM</div>
+        <div class="text-xl font-bold tracking-tight text-stone-800 md:text-2xl">Tugu Malang <span class="block text-sm font-normal text-amber-600 md:inline md:text-base">| Bolu Kukus & Brownies</span></div>
+      </div>
+
+      <!-- URUTAN MENU KONSISTEN -->
+      <ul class="flex list-none flex-wrap justify-center gap-6 font-semibold text-stone-700 md:gap-8">
+        <li><a href="index.html" class="pb-1 transition hover:text-amber-600">Beranda</a></li>
+        <li><a href="menu.html" class="border-b-2 border-amber-600 pb-1 text-amber-600">Varian Rasa</a></li>
+        <li><a href="lokasi.html" class="pb-1 transition hover:text-amber-600">Lokasi Toko</a></li>
+        <li><a href="pemesanan.html" class="pb-1 transition hover:text-amber-600">Pemesanan</a></li>
+      </ul>
+    </nav>
+
+    <!-- SECTION VARIAN RASA -->
+    <section class="flex-1 px-[8%] py-14">
+      <div class="mx-auto mb-12 max-w-xl text-center">
+        <span class="mb-3 inline-block rounded-full bg-amber-100 px-3.5 py-1.5 text-xs font-bold tracking-wider text-amber-800 uppercase md:text-sm"> Katalog Produk </span>
+        <h2 class="mb-3 text-3xl font-extrabold text-stone-900">Pilihan Varian Favorit</h2>
+        <p class="text-stone-500">Nikmati kelembutan bolu kukus dan lezatnya brownies dengan topping melimpah.</p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="keju.jpg" alt="Brownies Cokelat Keju" />
+          <div class="p-6">
+            <span class="rounded-md bg-amber-100 px-2.5 py-1 text-xs font-bold text-amber-700 uppercase">Best Seller</span>
+            <h3 class="mt-3 mb-1 text-xl font-bold text-stone-800">Brownies Cokelat Keju</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Brownies kukus cokelat pekat ditaburi parutan keju cheddar tebal diatasnya.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 37.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="apel.jpg" alt="Bolu Kukus Apel Malang" />
+          <div class="p-6">
+            <span class="rounded-md bg-emerald-100 px-2.5 py-1 text-xs font-bold text-emerald-700 uppercase">Khas Malang</span>
+            <h3 class="mt-3 mb-1 text-xl font-bold text-stone-800">Bolu Kukus Apel Malang</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Perpaduan harum sari apel Malang original dengan tekstur bolu yang sangat lembut.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 33.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="forest.jpg" alt="Bolu Black Forest" />
+          <div class="p-6">
+            <span class="rounded-md bg-amber-100 px-2.5 py-1 text-xs font-bold text-amber-700 uppercase">Favorit</span>
+            <h3 class="mt-3 mb-1 text-xl font-bold text-stone-800">Bolu Black Forest</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Cokelat premium khas Black Forest disajikan dengan selai dan meses cokelat berlimpah.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 40.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="tiramisu.jpg" alt="Brownies Tiramisu" />
+          <div class="p-6">
+            <h3 class="mb-1 text-xl font-bold text-stone-800">Brownies Tiramisu</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Perpaduan brownies cokelat dengan aroma kopi tiramisu yang khas dan keju gurih.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 37.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="pandan.jpg" alt="Lapis Kukus Choco Pandan" />
+          <div class="p-6">
+            <h3 class="mb-1 text-xl font-bold text-stone-800">Lapis Kukus Choco Pandan</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Kombinasi harum pandan alami dan lapisan cokelat manis dengan toping keju parut.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 35.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="original.jpg" alt="Lapis Kukus Ketan Hitam" />
+          <div class="p-6">
+            <h3 class="mb-1 text-xl font-bold text-stone-800">Brownies Original </h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Perpaduan cokelat pilihan yang kaya dan legit dengan tekstur brownies yang sangat lembut, lembap, dan lumer di mulut.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 35.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="durian.jpg" alt="Bolu Kukus Durian" />
+          <div class="p-6">
+            <h3 class="mb-1 text-xl font-bold text-stone-800">Bolu Kukus Durian</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Hadir dengan aroma dan rasa buah durian asli yang kuat dan menggugah selera.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 40.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="susu.jpg" alt="Bolu Kukus Susu" />
+          <div class="p-6">
+            <h3 class="mb-1 text-xl font-bold text-stone-800">Bolu Kukus Susu</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Rasa manis gurih dari susu pilihan yang meresap sempurna di setiap gigitan lembut bolu.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 35.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transform overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+          <img class="h-48 w-full object-cover" src="coklat.jpg" alt="Bolu Kukus Coklat" />
+          <div class="p-6">
+            <h3 class="mb-1 text-xl font-bold text-stone-800">Bolu Kukus Coklat</h3>
+            <p class="mb-4 text-sm leading-relaxed text-stone-500">Varian klasik dengan citarasa cokelat pekat yang manisnya pas dan tekstur super empuk.</p>
+            <div class="flex items-center justify-between border-t border-stone-100 pt-3">
+              <span class="text-xl font-extrabold text-stone-900">Rp 37.000</span>
+              <a href="pemesanan.html" class="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">Pesan WA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 py-6 text-center text-sm text-white">
+      <p>© 2026 Bolu Kukus & Brownies Tugu Malang</p>
+    </footer>
+  </body>
+</html>
